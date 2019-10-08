@@ -17,8 +17,8 @@ def ratio(eye):
 
 # setting thresholds
 
-threshold = 0.25
-time_thresh = 25
+threshold = 0.29
+time_thresh = 45
 
 detector = dlib.get_frontal_face_detector()
 shape_predict = dlib.shape_predictor(r"C:\Users\taranath\Desktop\shape_predictor_68_face_landmarks.dat")
